@@ -1,0 +1,22 @@
+.box-category{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.category{
+    width: 150px;
+      height: 150px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+      background-color: #fff;
+}
+
+.category:hover{
+    transition: 0.2s;
+    transform: scale(1.2);
+    
+}

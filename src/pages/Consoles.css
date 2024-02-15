@@ -1,0 +1,75 @@
+
+h4 {
+  color: black;
+  text-decoration: underline;
+}
+
+h6 {
+  color: black;
+  font-weight: bold;
+}
+
+
+
+p {
+  margin-top: 5px;
+}
+
+.checkbox-label {
+
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.checkbox-label input {
+  margin-right: 5px;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 20px;
+}
+
+
+.sort-container {
+  align-self: flex-end; 
+}
+
+.main-content {
+  display: flex;
+  align-items: flex-start; 
+  
+}
+
+.sidebar {
+  background-color: #2e8bc0;
+  color: #ecf0f1;
+  padding: 20px;
+  width: 30%;
+  height: 100vh;
+  margin-right: 20px; 
+  
+}
+.filter{
+  display: flex;
+  flex-direction: column;
+}
+.item-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+.item {
+  width: calc(50% - 10px); 
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.item:last-child {
+  margin-right: 0; 
+}
+
+

@@ -1,0 +1,16 @@
+.sort-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    
+  }
+  
+  .sort-section label {
+    margin-right: 10px;
+  }
+  
+  .sort-section select {
+    padding: 5px;
+    min-width: 120px
+  }
